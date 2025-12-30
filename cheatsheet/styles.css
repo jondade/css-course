@@ -1,0 +1,100 @@
+body {
+    background-image: url(../resources/images/html-css.svg);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #ccc;
+    background-image: url(../resources/images/html-css-logos-bg.svg);
+    color: grey;
+    padding: 10px 100px;
+    position: fixed;
+    top: 0;
+    border-bottom: #226 2px solid;
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 80%;
+    display: inline-block;
+}
+
+nav li {
+    display: inline-block;
+    width: 250px;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 5px 0;
+    margin: 10px;
+    background-color: lightgray;
+    opacity: 0.8;
+}
+
+nav a {
+    color: #555;
+    text-decoration: none;
+    display: inline-block;
+}
+
+nav img {
+    vertical-align: middle;
+    width: 75px;
+    height: 75px;
+    margin-right: 8px;
+}
+nav section {
+    display: inline-block;
+    width: 18%;
+    vertical-align: middle;
+    margin-left: 1%;
+}
+
+main {
+    margin-top: 75px;
+    padding: 20px 100px;
+    position: relative;
+}
+
+main h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.status {
+    color: #999;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: lightslategrey;
+    color: whitesmoke;
+    text-align: center;
+    padding: 5px;
+    border-top: gray 1px solid;
+    opacity: 0.9;
+}
+
+.example {
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin: 20px 10px;
+    display: inline-block;
+    width: 40%;
+}
+
+table {
+    background-color: whitesmoke;
+    box-shadow: #ccc 2px 2px 5px;
+    width: 100%;
+    border-radius: 10px;
+}

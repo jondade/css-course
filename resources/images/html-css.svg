@@ -1,0 +1,23 @@
+<svg width="60" height="60" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <!-- Light grid background -->
+      <rect width="60" height="60" fill="#f8f9fa"/>
+      
+      <!-- Subtle grid lines -->
+      <path d="M 60 0 L 0 0 0 60" fill="none" stroke="#e9ecef" stroke-width="1"/>
+      
+      <!-- Code brackets - 25% smaller and more faded -->
+      <text x="10" y="20" font-family="monospace" font-size="10.5" fill="#6c757d" opacity="0.15">&lt;/&gt;</text>
+      
+      <!-- CSS curly brace - 25% smaller and more faded -->
+      <text x="35" y="45" font-family="monospace" font-size="12" fill="#6c757d" opacity="0.12">{ }</text>
+      
+      <!-- Small dot accents - smaller and more faded -->
+      <circle cx="15" cy="45" r="1.5" fill="#0d6efd" opacity="0.1"/>
+      <circle cx="50" cy="15" r="1.1" fill="#0dcaf0" opacity="0.1"/>
+    </pattern>
+  </defs>
+  
+  <rect width="60" height="60" fill="url(#grid)"/>
+</svg>
